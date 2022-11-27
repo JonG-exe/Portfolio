@@ -64,7 +64,7 @@ function Navbar() {
                 </li>
 
                 <li className="social_li">
-                    <a href="" target="_blank" className="menu_link">
+                    <a href="https://www.youtube.com/@devjon" target="_blank" className="menu_link">
                         <img src={youtube_icon} className="youtube_icon" alt="extruded neumorphic youtube icon"/>
                     </a>
                 </li>
