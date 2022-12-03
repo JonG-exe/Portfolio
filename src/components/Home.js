@@ -8,6 +8,7 @@ import new_pro_pic from "../images/new_pro_pic.png"
 import profile_pic from "../images/jon-g-profile-picture.png"
 import hello from "../images/hello.png"
 import jonG from "../images/jon_g_intro.png"
+import PageDesign from "../components/PageDesign"
 
 
 let infoTile_info = {
@@ -45,6 +46,12 @@ export default function Home () {
     }, 50) // 50ms
 
     return (
+        <>
+
+        <Link to="/tutorial">Tutorial</Link>
+        
+        <PageDesign />
+
         <section className="container">
 
             <div className="profile">
@@ -87,7 +94,8 @@ export default function Home () {
                     title="Adept In"
                 />
             </div>
-            
         </section>
+        </>
+
     )
 }

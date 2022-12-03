@@ -897,6 +897,8 @@ button {
     animation-duration: 0.01s;
     animation-delay: 0s;
 
+    display: none;
+
     /* border: 2px solid blue; */
 }
 
