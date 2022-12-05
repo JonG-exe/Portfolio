@@ -1,15 +1,8 @@
 import React, {useEffect} from "react"
 import InfoTile from "./InfoTile";
-import main_image from "../images/profile_pic.png"
-import books from "../images/books.png"
-import Contact from "./Contact"
 import {Link} from "react-router-dom"
-import new_pro_pic from "../images/new_pro_pic.png"
 import profile_pic from "../images/jon-g-profile-picture.png"
-import hello from "../images/hello.png"
-import jonG from "../images/jon_g_intro.png"
 import PageDesign from "../components/PageDesign"
-
 
 let infoTile_info = {
     tile_one: {
@@ -18,7 +11,6 @@ let infoTile_info = {
         line_three: "Alias: ['Jon.G', 'Gray']",
     },
     tile_two: {
-        // line_one: "Services: ['Website Design', 'Website Development', 'SEO']"
         line_one: "Services: ['UI/UX Design', 'Web Development', 'SEO']"
     },
     tile_three: {
@@ -48,54 +40,51 @@ export default function Home () {
     return (
         <>
 
-        {/* <Link to="/tutorial">Tutorial</Link> */}
-        
-        <PageDesign />
+            <PageDesign />
 
-        <section className="container">
+            <section className="container">
 
-            <div className="profile">
-                <div className="profile-pic-area neu neu-circle embedded-neu">
-                    
-                    <div className="neu-circle-in-circle neu extruded-neu">
-                        <img className="neu-profile-pic" src={profile_pic} />
+                <div className="profile">
+                    <div className="profile-pic-area neu neu-circle embedded-neu">
+                        
+                        <div className="neu-circle-in-circle neu extruded-neu">
+                            <img className="neu-profile-pic" src={profile_pic} />
+                        </div>
+
+                        <Link to="/contact">
+                            <button className="CTA CTA_one">Get In Touch</button>
+                        </Link>
+                        
+                        <a href="#section_two" className="CTA CTA_two">My Portfolio</a>
+                        
                     </div>
-
-                    <Link to="/contact">
-                        <button className="CTA CTA_one">Get In Touch</button>
-                    </Link>
-                    
-                    <a href="#section_two" className="CTA CTA_two">My Portfolio</a>
-                    
                 </div>
-            </div>
+                
+                <div className="infoTiles">
+                    
+                    <InfoTile
+                        key="1"
+                        className={"infoTile infoTile_one"}
+                        tile_info={infoTile_info.tile_one}
+                        title="Who I Am"
+                    />
 
-            
-            <div className="infoTiles">
-                <InfoTile
-                    key="1"
-                    className={"infoTile infoTile_one"}
-                    tile_info={infoTile_info.tile_one}
-                    title="Who I Am"
-                />
+                    <InfoTile
+                        key="2"
+                        className={"infoTile infoTile_two"}
+                        tile_info={infoTile_info.tile_two}
+                        title="What I Do"
+                        title_right
+                    />
 
-                <InfoTile
-                    key="2"
-                    className={"infoTile infoTile_two"}
-                    tile_info={infoTile_info.tile_two}
-                    title="What I Do"
-                    title_right
-                />
-
-                <InfoTile
-                    key="3"
-                    className={"infoTile infoTile_three"}
-                    tile_info={infoTile_info.tile_three}
-                    title="Adept In"
-                />
-            </div>
-        </section>
+                    <InfoTile
+                        key="3"
+                        className={"infoTile infoTile_three"}
+                        tile_info={infoTile_info.tile_three}
+                        title="Adept In"
+                    />
+                </div>
+            </section>
         </>
-
     )
 }

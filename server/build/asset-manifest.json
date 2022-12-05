@@ -1,10 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.efbf1c00.css",
-    "main.js": "/static/js/main.4c57ac60.js",
+    "main.js": "/static/js/main.6486ea15.js",
     "static/media/Artboard – 13.png": "/static/media/Artboard – 13.94edd1f3f78e0f770dd2.png",
     "static/media/jon-g-profile-picture.png": "/static/media/jon-g-profile-picture.871ab600d8a0217c6d30.png",
-    "static/media/new_pro_pic.png": "/static/media/new_pro_pic.e601136743e6e5b8a52a.png",
     "static/media/Index.jpg": "/static/media/Index.20ccf932f210310686d6.jpg",
     "static/media/Home and Car.jpg": "/static/media/Home and Car.43bbe15da8811be5c566.jpg",
     "static/media/Health.jpg": "/static/media/Health.e3bf7149a45610b38a7c.jpg",
@@ -15,7 +14,6 @@
     "static/media/jon_g_intro.png": "/static/media/jon_g_intro.e42f4556afd40414f2fd.png",
     "static/media/Memories.jpg": "/static/media/Memories.42a88881726579bed916.jpg",
     "static/media/23_new.png": "/static/media/23_new.4054b34b9b168988d2b3.png",
-    "static/media/profile_pic.png": "/static/media/profile_pic.6db30fefe5d0c7e822a9.png",
     "static/media/Login.jpg": "/static/media/Login.7949c82ed14cd26051cf.jpg",
     "static/media/23.png": "/static/media/23.a5c56a6cf34c85086149.png",
     "static/media/extruded neumorphic rocket.png": "/static/media/extruded neumorphic rocket.a400cc078d890a439ca5.png",
@@ -23,10 +21,10 @@
     "static/media/neu_grid.png": "/static/media/neu_grid.035919c6c6ca3fe4138d.png",
     "index.html": "/index.html",
     "main.efbf1c00.css.map": "/static/css/main.efbf1c00.css.map",
-    "main.4c57ac60.js.map": "/static/js/main.4c57ac60.js.map"
+    "main.6486ea15.js.map": "/static/js/main.6486ea15.js.map"
   },
   "entrypoints": [
     "static/css/main.efbf1c00.css",
-    "static/js/main.4c57ac60.js"
+    "static/js/main.6486ea15.js"
   ]
 }
