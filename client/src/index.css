@@ -637,10 +637,18 @@ button {
     we liked. */
 
     /* width: 70%;
-    height: 70%; */
-    /* top: 15%;
+    height: 70%; 
+    top: 15%;
     left: 15%; */
     
+}
+
+.modal_link {
+    text-decoration: none;
+}
+
+.modal_link:visited {
+    color: inherit
 }
 
 
@@ -699,6 +707,7 @@ button {
     transition: all 1s;
 
     animation: temp_invisible 0.5s, page_load_embedded 3.25s linear forwards;
+
 }
 
 

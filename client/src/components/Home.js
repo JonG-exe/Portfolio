@@ -48,7 +48,7 @@ export default function Home () {
     return (
         <>
 
-        <Link to="/tutorial">Tutorial</Link>
+        {/* <Link to="/tutorial">Tutorial</Link> */}
         
         <PageDesign />
 
