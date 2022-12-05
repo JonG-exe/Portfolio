@@ -30,7 +30,7 @@ function Navbar() {
                 && !event.target.classList.contains("menu_icon")
                 && !event.target.classList.contains("menu_modal")
             ) {
-                console.log("Window CLICKED!")
+                // console.log("Window CLICKED!")
     
                 setMenuActive(preMenuActive => !preMenuActive);
             }
