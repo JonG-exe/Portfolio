@@ -17,8 +17,9 @@ export default function App() {
 
             <Routes>
                 <Route path="/" element={<Content />} />
-                <Route path="contact" element={<Contact />} />
-                <Route path="tutorial" element={<Tutorial />} />
+                <Route path="/contact" element={<Contact />} />
+                <Route path="/tutorial" element={<Tutorial />} />
+                <Route path="/*" element={<Content />} />
             </Routes>
         </div>
     )
