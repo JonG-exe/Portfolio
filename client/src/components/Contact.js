@@ -11,19 +11,6 @@ function Contact() {
     //-----------------------------------------
 
     /**
-     * Make intro elements disappear from the contact page
-     */
-
-    setTimeout(() => {
-        const helloElement = document.getElementsByClassName("hello_element")[0];
-        const jonGElement = document.getElementsByClassName("jon_g_element")[0];
-
-        helloElement.style.display = "none"
-        jonGElement.style.display = "none"
-    }, 50) // 50ms
-
-
-    /**
      * Send email from submited form
      */
     
